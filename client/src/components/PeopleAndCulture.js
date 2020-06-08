@@ -33,15 +33,15 @@ class PeopleAndCulture extends Component {
             <div className={styles.rectangle}></div>
           </div>
           <div className={styles.noteLinkList}>
-            <div className={styles.ourCulture}>
+            <div className={styles.note1}>
               <img src={noteIcon} className={styles.note}></img>{" "}
               <div className={styles.text}>Our Culture</div>
             </div>
-            <div className={styles.values}>
+            <div className={styles.note2}>
               <img src={noteIcon} className={styles.note}></img>{" "}
               <div className={styles.text}>Values</div>
             </div>
-            <div className={styles.tipsTricks}>
+            <div className={styles.note3}>
               <img src={noteIcon} className={styles.note}></img>{" "}
               <div className={styles.text}>Tips & Tricks</div>
             </div>

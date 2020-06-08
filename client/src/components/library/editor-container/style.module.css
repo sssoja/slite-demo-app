@@ -127,7 +127,7 @@
   top: 202px;
 }
 
-.ourCulture {
+.note1 {
   /* Note link */
 
   /* Auto Layout */
@@ -155,7 +155,7 @@
   margin: 0px 10px;
 }
 
-.values {
+.note2 {
   /* Note link */
 
   /* Auto Layout */
@@ -183,7 +183,7 @@
   margin: 0px 10px;
 }
 
-.tipsTricks {
+.note3 {
   /* Note link */
 
   /* Auto Layout */
@@ -215,7 +215,7 @@
   /* Our culture */
 
   position: static;
-  width: 113px;
+  width: 135px;
   height: 25px;
   left: 24px;
   top: 2px;
