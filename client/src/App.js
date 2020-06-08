@@ -4,6 +4,7 @@ import PeopleAndCulture from "./components/PeopleAndCulture";
 import Policies from "./components/Policies";
 import Resources from "./components/Resources";
 import Topbar from "./components/library/topbar/Topbar";
+import Sidebar from "./components/library/sidebar/Sidebar";
 
 import {
   BrowserRouter as Router,
@@ -17,6 +18,7 @@ function App() {
     <Router>
       <main>
         <Topbar position="static"></Topbar>
+        <Sidebar></Sidebar>
         <nav>
           <ul>
             <li>
