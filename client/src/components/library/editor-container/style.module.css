@@ -1,0 +1,56 @@
+.editorContainer {
+  /* Editor container */
+
+  position: absolute;
+  width: 917px;
+  height: 772px;
+  left: 317px;
+  top: 160px;
+}
+
+.content {
+  /* Content */
+
+  position: absolute;
+  width: 600px;
+  height: 309px;
+  left: 159px;
+  top: 52px;
+}
+
+.heading {
+  /* People & culture */
+
+  position: absolute;
+  width: 437px;
+  height: 55px;
+  left: 0px;
+  top: 0px;
+
+  /* Editor / Title */
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 46px;
+  line-height: 55px;
+
+  /* identical to box height, or 120% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+
+  /* Shade 05 - LM */
+
+  color: #46474f;
+}
+
+.callout {
+  /* Callout */
+
+  position: absolute;
+  width: 600px;
+  height: 99px;
+  left: 0px;
+  top: 75px;
+}

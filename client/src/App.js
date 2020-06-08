@@ -5,6 +5,7 @@ import Policies from "./components/Policies";
 import Resources from "./components/Resources";
 import Topbar from "./components/library/topbar/Topbar";
 import Sidebar from "./components/library/sidebar/Sidebar";
+import EditorContainer from "./components/library/editor-container/EditorContainer";
 
 import {
   BrowserRouter as Router,
@@ -35,6 +36,7 @@ function App() {
             </li>
           </ul>
         </nav>
+        <EditorContainer></EditorContainer>
 
         <Switch>
           {" "}
