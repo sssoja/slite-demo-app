@@ -1,6 +1,15 @@
 import React from "react";
 import "./App.css";
-import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+import Favorites from "./components/landing-page/Favorites";
+import PeopleAndCulture from "./components/PeopleAndCulture";
+import Policies from "./components/Policies";
+import Resources from "./components/Resources";
+import {
+  BrowserRouter as Router,
+  Route,
+  NavLink,
+  Switch,
+} from "react-router-dom";
 
 function App() {
   return (
@@ -9,16 +18,16 @@ function App() {
         <nav>
           <ul>
             <li>
-              <a href="/">Favorites</a>
+              <NavLink to="/">Favorites</NavLink>
             </li>
             <li>
-              <a href="/policies">Policies</a>
+              <NavLink to="/policies">Policies</NavLink>
             </li>
             <li>
-              <a href="/management-resources">Management resources</a>
+              <NavLink to="/management-resources">Management resources</NavLink>
             </li>
             <li>
-              <a href="/people-and-culture">People and culture</a>
+              <NavLink to="/people-and-culture">People and culture</NavLink>
             </li>
           </ul>
         </nav>
@@ -39,13 +48,5 @@ function App() {
     </Router>
   );
 }
-
-const Favorites = () => <h1>Favorites</h1>;
-
-const Policies = () => <h1>Policies</h1>;
-
-const Resources = () => <h1>Management resources</h1>;
-
-const PeopleAndCulture = () => <h1>People and culture</h1>;
 
 export default App;
