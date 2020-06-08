@@ -1,9 +1,10 @@
 import React from "react";
-import "./App.css";
-import Favorites from "./components/landing-page/Favorites";
+import Favorites from "./components/Favorites";
 import PeopleAndCulture from "./components/PeopleAndCulture";
 import Policies from "./components/Policies";
 import Resources from "./components/Resources";
+import Topbar from "./components/library/topbar/Topbar";
+
 import {
   BrowserRouter as Router,
   Route,
@@ -14,6 +15,7 @@ import {
 function App() {
   return (
     <Router>
+      <Topbar></Topbar>
       <main>
         <nav>
           <ul>
@@ -31,6 +33,7 @@ function App() {
             </li>
           </ul>
         </nav>
+
         <Switch>
           {" "}
           // load only one route at a time

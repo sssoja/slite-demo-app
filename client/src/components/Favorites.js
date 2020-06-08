@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-export default class Favorites extends Component {
+class Favorites extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -17,3 +17,5 @@ export default class Favorites extends Component {
     );
   }
 }
+
+export default Favorites;
