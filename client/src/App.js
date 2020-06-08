@@ -15,8 +15,8 @@ import {
 function App() {
   return (
     <Router>
-      <Topbar></Topbar>
       <main>
+        <Topbar position="static"></Topbar>
         <nav>
           <ul>
             <li>
