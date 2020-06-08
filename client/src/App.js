@@ -6,6 +6,7 @@ import Resources from "./components/Resources";
 import Topbar from "./components/library/topbar/Topbar";
 import Sidebar from "./components/library/sidebar/Sidebar";
 import EditorContainer from "./components/library/editor-container/EditorContainer";
+import styles from "./components/library/bg/style.module.css"; // Import css modules stylesheet as styles
 
 import {
   BrowserRouter as Router,
@@ -17,7 +18,7 @@ import {
 function App() {
   return (
     <Router>
-      <main>
+      <main className={styles.background}>
         <Topbar position="static"></Topbar>
         <Sidebar></Sidebar>
         <nav>
