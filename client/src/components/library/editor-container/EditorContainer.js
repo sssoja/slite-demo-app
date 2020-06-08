@@ -6,7 +6,7 @@ class EditorContainer extends Component {
     return (
       <div className={styles.editorContainer}>
         <div className={styles.content}>
-          <span className={styles.heading}>People and culture</span>
+          <span className={styles.heading}></span>
           <div className={styles.callout}></div>
         </div>
       </div>

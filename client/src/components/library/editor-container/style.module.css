@@ -53,4 +53,62 @@
   height: 99px;
   left: 0px;
   top: 75px;
+  /* Purple Shade Dark - LM */
+
+  background: #edf1ff;
+  border-radius: 4px;
+}
+
+.calloutText {
+  /* Here you’ll find all the important information related to our internal culture. 
+  You can read about our story, learn about our values, and 
+  get the full overview of the tools we use. */
+
+  position: absolute;
+  width: 528px;
+  height: 63px;
+  left: 56px;
+  top: 16px;
+
+  /* Editor / Body - 400 */
+
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 160% */
+
+  display: flex;
+  align-items: center;
+
+  /* Shade 05 - LM */
+
+  color: #46474f;
+}
+
+.info {
+  /* Info */
+
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 24px;
+  top: 16px;
+  background: #dadada;
+}
+
+.rectangle {
+  /* Rectangle 3 */
+
+  position: absolute;
+  width: 8px;
+  height: 99px;
+  left: 0px;
+  top: 75px;
+  bottom: 0px;
+
+  /* Purple - LM */
+
+  background: #5168ec;
 }

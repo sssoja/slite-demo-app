@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import styles from "./library/editor-container/style.module.css"; // Import css modules stylesheet as styles
+import icon from "./assets/Info.png";
 
 class PeopleAndCulture extends Component {
   constructor(props) {
@@ -17,9 +19,15 @@ class PeopleAndCulture extends Component {
 
   render() {
     return (
-      <div>
-        <h1>People and culture</h1>
-        <p>Some text</p>
+      <div className={styles.editorContainer}>
+        <div className={styles.content}>
+          <span className={styles.heading}>People and culture</span>
+          <div className={styles.callout}></div>
+          <div className={styles.calloutText}></div>
+          <div className={styles.info}></div>
+          <img src={icon} className={styles.info}></img>{" "}
+          <div className={styles.rectangle}></div>
+        </div>
       </div>
     );
   }
