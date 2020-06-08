@@ -18,11 +18,11 @@
 }
 
 .div {
-  position: absolute;
-  width: 1186px;
-  height: 0px;
+  position: fixed;
+  width: 100%;
+  height: 58px;
   left: 0px;
-  top: 51px;
+  top: 0px;
 
   /* Shade 45 - LM */
 
@@ -32,11 +32,11 @@
 .favorites {
   /* ⭐️ Favorites */
 
-  position: static;
+  position: fixed;
   width: 80px;
   height: 19px;
-  left: 0px;
-  top: 0px;
+  left: 16px;
+  top: 16px;
 
   /* App / Header 3 - 500 */
 
@@ -57,4 +57,14 @@
   order: 0;
   align-self: flex-start;
   margin: 8px 0px;
+}
+
+.star {
+  /* Star / plain */
+
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 1154px;
+  top: 16px;
 }

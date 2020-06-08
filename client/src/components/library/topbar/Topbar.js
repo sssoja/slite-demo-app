@@ -5,8 +5,8 @@ class Topbar extends Component {
   render() {
     return (
       <div className={styles.topbar}>
+        <span className={styles.favorites}>⭐ Favorites</span>
         <div className={styles.breadcrumb}>
-          <span className={styles.favorites}>⭐ Favorites</span>
           <div className={styles.div}></div>
         </div>
       </div>
