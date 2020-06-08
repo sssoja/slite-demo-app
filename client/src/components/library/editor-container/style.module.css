@@ -22,7 +22,7 @@
   /* People & culture */
 
   position: absolute;
-  width: 437px;
+  width: 484px;
   height: 55px;
   left: 0px;
   top: 0px;
@@ -215,7 +215,7 @@
   /* Our culture */
 
   position: static;
-  width: 135px;
+  width: 208px;
   height: 25px;
   left: 24px;
   top: 2px;
@@ -241,6 +241,7 @@
   order: 1;
   align-self: center;
   margin: 4px 0px;
+  text-decoration: none;
 }
 
 .note {
