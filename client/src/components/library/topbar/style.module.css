@@ -1,7 +1,6 @@
 .topbar {
   position: absolute;
-  width: 1186px;
-  height: 51px;
+
   left: 48px;
   top: 109px;
 }
@@ -65,6 +64,7 @@
   position: absolute;
   width: 16px;
   height: 16px;
-  left: 1154px;
+  justify-content: flex-end;
+
   top: 16px;
 }

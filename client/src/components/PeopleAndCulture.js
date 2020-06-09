@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import styles from "./library/editor-container/style.module.css"; // Import css modules stylesheet as styles
-import infoIcon from "./assets/Info.png";
-import noteIcon from "./assets/Note.png";
+import infoIcon from "./assets/i-info.svg";
+import noteIcon from "./assets/note.svg";
 
 class PeopleAndCulture extends Component {
   constructor(props) {
@@ -29,23 +29,25 @@ class PeopleAndCulture extends Component {
               internal culture. You can read about our story, learn about our
               values, and get the full overview of the tools we use.
             </div>
-            <img src={infoIcon} className={styles.info}></img>{" "}
+            <a href="url">
+              <img src={infoIcon} className={styles.info}></img>
+            </a>
             <div className={styles.rectangle}></div>
           </div>
           <div className={styles.noteLinkList}>
-            <div className={styles.note1}>
+            <div className={styles.note}>
               <img src={noteIcon} className={styles.note}></img>{" "}
               <a href="url" className={styles.text}>
                 Our Culture
               </a>
             </div>
-            <div className={styles.note2}>
+            <div className={styles.note}>
               <img src={noteIcon} className={styles.note}></img>{" "}
               <a href="url" className={styles.text}>
                 Values
               </a>
             </div>
-            <div className={styles.note3}>
+            <div className={styles.note}>
               <img src={noteIcon} className={styles.note}></img>{" "}
               <a href="url" className={styles.text}>
                 Tips & Tricks

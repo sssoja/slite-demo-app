@@ -1,62 +1,32 @@
 .editorContainer {
-  /* Editor container */
-
   position: absolute;
-  width: 917px;
-  height: 772px;
-  left: 317px;
-  top: 160px;
-}
-
-.content {
-  /* Content */
-
-  position: absolute;
-  width: 600px;
-  height: 309px;
-  left: 159px;
-  top: 52px;
+  left: 428px;
+  top: 155px;
 }
 
 .heading {
-  /* People & culture */
-
-  position: absolute;
-  width: 484px;
-  height: 55px;
-  left: 0px;
-  top: 0px;
-
   /* Editor / Title */
-
   font-style: normal;
   font-weight: bold;
   font-size: 46px;
   line-height: 55px;
 
   /* identical to box height, or 120% */
-
-  display: flex;
-  align-items: center;
   letter-spacing: -0.02em;
 
   /* Shade 05 - LM */
-
   color: #46474f;
 }
 
 .callout {
-  /* Callout */
-
   position: absolute;
   width: 600px;
   height: 99px;
   left: 0px;
   top: 75px;
-  /* Purple Shade Dark - LM */
 
+  /* Purple Shade Dark - LM */
   background: #edf1ff;
-  border-radius: 4px;
 }
 
 .calloutText {
@@ -65,30 +35,26 @@
   get the full overview of the tools we use. */
 
   position: absolute;
-  width: 528px;
+  width: 513px;
   height: 63px;
   left: 56px;
   top: 16px;
 
   /* Editor / Body - 400 */
-
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 26px;
-  /* or 160% */
 
+  /* or 160% */
   display: flex;
   align-items: center;
 
   /* Shade 05 - LM */
-
   color: #46474f;
 }
 
 .info {
-  /* Info */
-
   position: absolute;
   width: 16px;
   height: 16px;
@@ -97,8 +63,6 @@
 }
 
 .rectangle {
-  /* Rectangle 3 */
-
   position: absolute;
   width: 8px;
   height: 99px;
@@ -112,151 +76,33 @@
 }
 
 .noteLinkList {
-  /* Note link list */
-
   /* Auto Layout */
-
-  display: flex;
-  flex-direction: column;
-  padding: 0px;
-
   position: absolute;
-  width: 113px;
-  height: 107px;
-  left: 0px;
   top: 202px;
 }
 
-.note1 {
-  /* Note link */
-
+.note {
   /* Auto Layout */
-
   display: flex;
-  flex-direction: row;
-  padding: 2px 4px;
-
-  position: static;
-  width: 105px;
-  height: 29px;
-  left: 0px;
-  top: 0px;
+  width: fit-content;
 
   /* Purple Shade Dark - LM */
-
   background: #edf1ff;
-  border-radius: 4px;
-
-  /* Inside Auto Layout */
-
-  flex: none;
-  order: 0;
-  align-self: flex-start;
-  margin: 0px 10px;
-}
-
-.note2 {
-  /* Note link */
-
-  /* Auto Layout */
-
-  display: flex;
-  flex-direction: row;
-  padding: 2px 4px;
-
-  position: static;
-  width: 73px;
-  height: 29px;
-  left: 0px;
-  top: 39px;
-
-  /* Purple Shade Dark - LM */
-
-  background: #edf1ff;
-  border-radius: 4px;
-
-  /* Inside Auto Layout */
-
-  flex: none;
-  order: 1;
-  align-self: flex-start;
-  margin: 0px 10px;
-}
-
-.note3 {
-  /* Note link */
-
-  /* Auto Layout */
-
-  display: flex;
-  flex-direction: row;
-  padding: 2px 4px;
-
-  position: static;
-  width: 113px;
-  height: 29px;
-  left: 0px;
-  top: 78px;
-
-  /* Purple Shade Dark - LM */
-
-  background: #edf1ff;
-  border-radius: 4px;
-
-  /* Inside Auto Layout */
-
-  flex: none;
-  order: 2;
-  align-self: flex-start;
-  margin: 0px 10px;
-}
-
-.text {
-  /* Our culture */
-
-  position: static;
-  width: 208px;
-  height: 25px;
-  left: 24px;
-  top: 2px;
 
   /* App / Header 3 - 500 */
-
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 25px;
-  /* identical to box height */
-
-  display: flex;
-  align-items: center;
 
   /* Purple - LM */
-
   color: #5168ec;
 
   /* Inside Auto Layout */
-
-  flex: none;
-  order: 1;
-  align-self: center;
   margin: 4px 0px;
-  text-decoration: none;
 }
 
-.note {
-  /* Note */
-
-  position: static;
-  width: 16px;
-  height: 16px;
-  left: 4px;
-  top: 6.5px;
-
-  /* Inside Auto Layout */
-
-  flex: none;
-  order: 0;
-  align-self: center;
-  margin: 4px 4px;
+.note a {
+  text-decoration: none;
+  color: #5168ec;
+  display: flex;
 }

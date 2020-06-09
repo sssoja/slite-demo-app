@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import styles from "./library/editor-container/style.module.css"; // Import css modules stylesheet as styles
-import infoIcon from "./assets/Info.png";
-import noteIcon from "./assets/Note.png";
+import infoIcon from "./assets/i-info.svg";
+import noteIcon from "./assets/note.svg";
 
 class Resources extends Component {
   constructor(props) {
@@ -29,21 +29,32 @@ class Resources extends Component {
               personal growth reviews, learn about roles and outcomes, and get
               the full overview of the employee lifecycle.
             </div>
-            <img src={infoIcon} className={styles.info}></img>{" "}
+            <a href="url">
+              <img src={infoIcon} className={styles.info}></img>
+            </a>
             <div className={styles.rectangle}></div>
           </div>
           <div className={styles.noteLinkList}>
-            <div className={styles.note1}>
-              <img src={noteIcon} className={styles.note}></img>{" "}
-              <div className={styles.text}>1-1s handbook</div>
+            <div className={styles.note}>
+              {" "}
+              <a href="url">
+                <img src={noteIcon} className={styles.note}></img>{" "}
+                <div className={styles.text}>1-1s handbook</div>
+              </a>
             </div>
-            <div className={styles.note2}>
-              <img src={noteIcon} className={styles.note}></img>{" "}
-              <div className={styles.text}>Performance growth evaluation</div>
+            <div className={styles.note}>
+              {" "}
+              <a href="url">
+                <img src={noteIcon} className={styles.note}></img>{" "}
+                <div className={styles.text}>Performance growth evaluation</div>
+              </a>
             </div>
-            <div className={styles.note3}>
-              <img src={noteIcon} className={styles.note}></img>{" "}
-              <div className={styles.text}>Employee lifecycle</div>
+            <div className={styles.note}>
+              {" "}
+              <a href="url">
+                <img src={noteIcon} className={styles.note}></img>{" "}
+                <div className={styles.text}>Employee lifecycle</div>{" "}
+              </a>
             </div>
           </div>
         </div>
