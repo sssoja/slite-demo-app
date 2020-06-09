@@ -18,7 +18,11 @@ class Sidebar extends Component {
           <div className={styles.note}>
             <NavLink to="/policies">📚 Policies</NavLink>
           </div>
-          <NavLink to="/management-resources">📖 Management resources</NavLink>
+          <div className={styles.note}>
+            <NavLink to="/management-resources">
+              📖 Management resources
+            </NavLink>
+          </div>
         </div>
       </div>
     );
