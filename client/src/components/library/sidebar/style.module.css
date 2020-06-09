@@ -1,18 +1,41 @@
-.div {
+.sidebar {
+  margin-top: 60px;
+  padding: 23px;
+  width: 269px;
+  border: 2px solid #efeff1;
   position: fixed;
-  height: 100vh;
-  /* Shade 45 - LM */
-
-  color: 2px solid #efeff1;
+  height: 100%;
+  overflow: auto;
 }
 
-.sidebar {
-  padding-left: 12px;
-  padding-right: 12px;
-  color: #46474f;
+.notelist {
+  /* Auto Layout */
+
   display: flex;
   flex-direction: column;
   padding: 0px;
+
+  position: absolute;
+  width: 245px;
+  height: 140px;
+  left: 12px;
+  top: 12px;
+}
+
+.note {
+  position: static;
+  width: 245px;
+  height: 32px;
+  left: 0px;
+  top: 108px;
+
+  border-radius: 4px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 3;
+  margin: 0px 4px;
 }
 
 .sidebar a {

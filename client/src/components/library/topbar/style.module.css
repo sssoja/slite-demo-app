@@ -1,41 +1,15 @@
 .topbar {
-  position: absolute;
-
-  left: 48px;
-  top: 109px;
-}
-
-.breadcrumb {
-  display: flex;
-  flex-direction: row;
-  padding: 0px;
-  position: absolute;
-  width: 267px;
-  height: 19px;
-  left: 16px;
-  top: 16px;
-}
-
-.div {
   position: fixed;
-  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
   height: 58px;
-  left: 0px;
-  top: 0px;
-
-  /* Shade 45 - LM */
-
   border: 2px solid #efeff1;
+  width: 100%;
 }
 
 .favorites {
   /* ⭐️ Favorites */
-
   position: fixed;
-  width: 80px;
-  height: 19px;
-  left: 16px;
-  top: 16px;
 
   /* App / Header 3 - 500 */
 
@@ -60,10 +34,5 @@
 
 .star {
   /* Star / plain */
-
-  position: absolute;
-  width: 16px;
-  height: 16px;
-  justify-content: flex-end;
-  top: 16px;
+  float: right;
 }
