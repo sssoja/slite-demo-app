@@ -86,6 +86,7 @@
   display: flex;
   width: fit-content;
   margin-top: 5px;
+  border-radius: 4px;
 
   /* Purple Shade Dark - LM */
   background: #edf1ff;

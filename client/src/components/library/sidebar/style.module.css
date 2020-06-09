@@ -8,28 +8,29 @@
   overflow: auto;
 }
 
-.notelist {
-  /* Auto Layout */
-  display: flex;
-  flex-direction: column;
-  position: fixed;
-  width: 245px;
-  height: 140px;
-  left: 12px;
-  top: 12px;
-}
-
 .note {
   margin: 16px;
+  color: #46474f;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 25px;
 }
 
-.sidebar a {
-  padding: 6px 8px 6px 16px;
+.note a {
   text-decoration: none;
-  color: #818181;
+  color: #46474f;
 }
 
-.sidebar a:hover {
-  background-color: #f4f4f6;
-  transition: all 0.13s ease-in-out;
+.note :hover {
+  background: #f5f5f7;
+  border-radius: 4px;
 }
+
+.chevron {
+  /* Chevron / small / down */
+  width: 16px;
+  height: 16px;
+}
+
+/* transition: all 0.13s ease-in-out; */

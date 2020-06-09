@@ -29,10 +29,11 @@
   flex: none;
   order: 0;
   align-self: flex-start;
-  margin: 8px 0px;
+  margin: 16px 16px;
 }
 
 .star {
   /* Star / plain */
   float: right;
+  margin: 16px;
 }
