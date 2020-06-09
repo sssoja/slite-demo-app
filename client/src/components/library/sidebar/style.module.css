@@ -1,29 +1,33 @@
 .sidebar {
-  margin-top: 60px;
-  padding: 23px;
-  width: 269px;
-  border: 2px solid #efeff1;
+  margin: 0px;
+  padding: 0px;
+  width: 200px;
   position: fixed;
   height: 100%;
   overflow: auto;
+  margin-top: 72px;
+  width: 254px;
 }
 
-.note {
-  margin: 16px;
+.sidebar a {
+  display: flex;
   color: #46474f;
-  font-style: normal;
+  text-decoration: none;
   font-weight: 500;
   font-size: 14px;
-  line-height: 25px;
+  align-items: flex-end;
+  padding: 6px;
+  margin-left: 24px;
 }
 
-.note a {
-  text-decoration: none;
+.sidebar a.active {
+  background-color: #5168ec;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #f5f5f7;
   color: #46474f;
-}
-
-.note :hover {
-  background: #f5f5f7;
   border-radius: 4px;
 }
 

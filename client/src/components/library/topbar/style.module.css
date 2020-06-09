@@ -26,10 +26,8 @@
 
   /* Inside Auto Layout */
 
-  flex: none;
-  order: 0;
   align-self: flex-start;
-  margin: 16px 16px;
+  margin: 16px 26px;
 }
 
 .star {
