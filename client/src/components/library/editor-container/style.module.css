@@ -81,28 +81,29 @@
   top: 202px;
 }
 
-.note {
+.noteLink {
   /* Auto Layout */
   display: flex;
   width: fit-content;
+  margin-top: 5px;
 
   /* Purple Shade Dark - LM */
   background: #edf1ff;
+}
 
+.noteLink a {
+  text-decoration: none;
+  color: #5168ec;
+  display: flex;
+}
+
+.text {
   /* App / Header 3 - 500 */
   font-weight: 500;
   font-size: 14px;
   line-height: 25px;
+  margin-left: 5px;
 
   /* Purple - LM */
   color: #5168ec;
-
-  /* Inside Auto Layout */
-  margin: 4px 0px;
-}
-
-.note a {
-  text-decoration: none;
-  color: #5168ec;
-  display: flex;
 }

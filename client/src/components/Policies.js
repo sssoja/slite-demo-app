@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import styles from "./library/editor-container/style.module.css"; // Import css modules stylesheet as styles
-
 import infoIcon from "./assets/i-info.svg";
 import noteIcon from "./assets/note.svg";
 
@@ -36,22 +35,22 @@ class Policies extends Component {
             <div className={styles.rectangle}></div>
           </div>
           <div className={styles.noteLinkList}>
-            <div className={styles.note}>
+            <div className={styles.noteLink}>
               <a href="url">
                 {" "}
-                <img src={noteIcon} className={styles.note}></img>{" "}
+                <img src={noteIcon}></img>{" "}
                 <div className={styles.text}>1-1s handbook</div>
               </a>
             </div>
-            <div className={styles.note}>
+            <div className={styles.noteLink}>
               <a href="url">
-                <img src={noteIcon} className={styles.note}></img>{" "}
+                <img src={noteIcon}></img>{" "}
                 <div className={styles.text}>Remote handbook</div>
               </a>
             </div>
-            <div className={styles.note}>
+            <div className={styles.noteLink}>
               <a href="url">
-                <img src={noteIcon} className={styles.note}></img>{" "}
+                <img src={noteIcon}></img>{" "}
                 <div className={styles.text}>Onboarding @ Slite</div>
               </a>
             </div>

@@ -35,24 +35,24 @@ class Resources extends Component {
             <div className={styles.rectangle}></div>
           </div>
           <div className={styles.noteLinkList}>
-            <div className={styles.note}>
+            <div className={styles.noteLink}>
               {" "}
               <a href="url">
-                <img src={noteIcon} className={styles.note}></img>{" "}
+                <img src={noteIcon}></img>{" "}
                 <div className={styles.text}>1-1s handbook</div>
               </a>
             </div>
-            <div className={styles.note}>
+            <div className={styles.noteLink}>
               {" "}
               <a href="url">
-                <img src={noteIcon} className={styles.note}></img>{" "}
+                <img src={noteIcon}></img>{" "}
                 <div className={styles.text}>Performance growth evaluation</div>
               </a>
             </div>
-            <div className={styles.note}>
+            <div className={styles.noteLink}>
               {" "}
               <a href="url">
-                <img src={noteIcon} className={styles.note}></img>{" "}
+                <img src={noteIcon}></img>{" "}
                 <div className={styles.text}>Employee lifecycle</div>{" "}
               </a>
             </div>

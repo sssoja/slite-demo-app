@@ -35,20 +35,20 @@ class PeopleAndCulture extends Component {
             <div className={styles.rectangle}></div>
           </div>
           <div className={styles.noteLinkList}>
-            <div className={styles.note}>
-              <img src={noteIcon} className={styles.note}></img>{" "}
+            <div className={styles.noteLink}>
+              <img src={noteIcon}></img>{" "}
               <a href="url" className={styles.text}>
                 Our Culture
               </a>
             </div>
-            <div className={styles.note}>
-              <img src={noteIcon} className={styles.note}></img>{" "}
+            <div className={styles.noteLink}>
+              <img src={noteIcon}></img>{" "}
               <a href="url" className={styles.text}>
                 Values
               </a>
             </div>
-            <div className={styles.note}>
-              <img src={noteIcon} className={styles.note}></img>{" "}
+            <div className={styles.noteLink}>
+              <img src={noteIcon}></img>{" "}
               <a href="url" className={styles.text}>
                 Tips & Tricks
               </a>
