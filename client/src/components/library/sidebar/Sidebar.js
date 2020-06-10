@@ -5,6 +5,7 @@ import { NavLink } from "react-router-dom";
 
 const Sidebar = () => {
   const [expanded, setExpanded] = useState(false);
+  const [active, isActive] = useState(false);
 
   return (
     <div className={styles.sidebar}>
@@ -23,12 +24,18 @@ const Sidebar = () => {
 
         <div className={expanded ? styles.dropdown : styles.hidden}>
           {" "}
-          <NavLink to="/people-and-culture">🥇 People and culture</NavLink>
+          <NavLink to="/people-and-culture" onClick={() => isActive(!active)}>
+            🥇 People and culture
+          </NavLink>
         </div>
       </div>
 
-      <NavLink to="/policies">📚 Policies</NavLink>
-      <NavLink to="/management-resources">📖 Management resources</NavLink>
+      <NavLink to="/policies" onClick={() => isActive(!active)}>
+        📚 Policies
+      </NavLink>
+      <NavLink to="/management-resources" onClick={() => isActive(!active)}>
+        📖 Management resources
+      </NavLink>
     </div>
   );
 };

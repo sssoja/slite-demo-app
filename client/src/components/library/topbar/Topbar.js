@@ -6,6 +6,7 @@ import { NavLink } from "react-router-dom";
 
 const Topbar = () => {
   const [favorited, setFavorited] = useState(false);
+
   return (
     <div className={styles.topbar}>
       <NavLink to="/" className={styles.home}>

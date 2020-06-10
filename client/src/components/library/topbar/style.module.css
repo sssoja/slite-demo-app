@@ -12,7 +12,6 @@
   position: fixed;
 
   /* App / Header 3 - 500 */
-
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -29,6 +28,15 @@
 
   align-self: flex-start;
   margin: 16px 26px;
+}
+
+.breadcrumb {
+  color: #46474f;
+}
+
+.chevron {
+  width: 16px;
+  height: 16px;
 }
 
 .star {
