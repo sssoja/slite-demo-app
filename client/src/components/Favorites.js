@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import styles from "./library/editor-container/style.module.css"; // Import css modules stylesheet as styles
 import infoIcon from "./assets/i-info.svg";
+import PeopleAndCulture from "./PeopleAndCulture";
+import Policies from "./Policies";
+import Resources from "./Resources";
 
 class Favorites extends Component {
   constructor(props) {
@@ -9,6 +12,21 @@ class Favorites extends Component {
       favorites: [],
     };
   }
+
+  addFavorite = (favorite) => {
+    const { favorites } = this.state;
+
+    if (
+      !favorites.some(
+        (alreadyFavorite) =>
+          alreadyFavorite == PeopleAndCulture || Policies || Resources
+      )
+    ) {
+      this.setState({
+        favorites: [...this.state.favorites, favorite],
+      });
+    }
+  };
 
   render() {
     return (

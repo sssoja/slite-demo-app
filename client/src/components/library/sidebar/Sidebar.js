@@ -1,26 +1,32 @@
-import React, { Component } from "react";
+import React, { useState } from "react";
 import styles from "./style.module.css"; // Import css modules stylesheet as styles
 import chevron from "./right.svg";
 import { NavLink } from "react-router-dom";
 
-class Sidebar extends Component {
-  render() {
-    return (
-      <div className={styles.sidebar}>
-        <div>
-          <NavLink to="/">
-            ⭐ Favorites{" "}
-            <a>
-              <img src={chevron} className={styles.chevron}></img>
-            </a>
-          </NavLink>{" "}
+const Sidebar = () => {
+  const [expanded, setExpanded] = useState(false);
+
+  return (
+    <div className={styles.sidebar}>
+      <div>
+        <NavLink to="/" onClick={() => setExpanded(!expanded)}>
+          ⭐ Favorites{" "}
+          <img
+            src={chevron}
+            className={expanded ? styles.chevronDown : styles.chevronRight}
+          />
+        </NavLink>
+
+        <div className={expanded ? styles.dropdown : styles.hidden}>
+          {" "}
+          <NavLink to="/people-and-culture">🥇 People and culture</NavLink>
         </div>
-        <NavLink to="/people-and-culture">🥇 People and culture</NavLink>
-        <NavLink to="/policies">📚 Policies</NavLink>
-        <NavLink to="/management-resources">📖 Management resources</NavLink>
       </div>
-    );
-  }
-}
+
+      <NavLink to="/policies">📚 Policies</NavLink>
+      <NavLink to="/management-resources">📖 Management resources</NavLink>
+    </div>
+  );
+};
 
 export default Sidebar;
