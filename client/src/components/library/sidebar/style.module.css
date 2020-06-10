@@ -1,7 +1,6 @@
 .sidebar {
   margin: 0px;
   padding: 0px;
-  width: 200px;
   position: fixed;
   height: 100%;
   overflow: auto;
@@ -15,14 +14,8 @@
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
-  align-items: flex-end;
   padding: 6px;
   margin-left: 24px;
-}
-
-.sidebar a.active {
-  background-color: #5168ec;
-  color: white;
 }
 
 .sidebar a:hover:not(.active) {
@@ -35,6 +28,10 @@
   /* Chevron / small / down */
   width: 16px;
   height: 16px;
+  margin-left: 88px;
 }
 
-/* transition: all 0.13s ease-in-out; */
+.chevron a {
+  /* Chevron / small / right */
+  align-items: center;
+}

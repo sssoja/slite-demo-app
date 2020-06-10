@@ -7,9 +7,14 @@ class Sidebar extends Component {
   render() {
     return (
       <div className={styles.sidebar}>
-        <NavLink to="/">
-          ⭐ Favorites <img src={chevron} className={styles.chevron}></img>
-        </NavLink>{" "}
+        <div>
+          <NavLink to="/">
+            ⭐ Favorites{" "}
+            <a>
+              <img src={chevron} className={styles.chevron}></img>
+            </a>
+          </NavLink>{" "}
+        </div>
         <NavLink to="/people-and-culture">🥇 People and culture</NavLink>
         <NavLink to="/policies">📚 Policies</NavLink>
         <NavLink to="/management-resources">📖 Management resources</NavLink>
