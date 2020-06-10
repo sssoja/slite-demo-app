@@ -1,11 +1,12 @@
 .sidebar {
-  margin: 0px;
-  padding: 0px;
   position: fixed;
   height: 100%;
   overflow: auto;
-  margin-top: 72px;
+  margin-top: 60px;
   width: 254px;
+  border: 2px solid #efeff1;
+  padding-top: 11px;
+  padding-right: 12px;
 }
 
 .sidebar a {

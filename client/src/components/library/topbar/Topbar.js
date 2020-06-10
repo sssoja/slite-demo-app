@@ -8,7 +8,6 @@ class Topbar extends Component {
     return (
       <div className={styles.topbar}>
         <span className={styles.favorites}>⭐ Favorites</span>
-
         <img src={star} className={styles.star}></img>
       </div>
     );
