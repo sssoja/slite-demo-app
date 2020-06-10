@@ -9,7 +9,11 @@ const Sidebar = () => {
   return (
     <div className={styles.sidebar}>
       <div>
-        <NavLink to="/" onClick={() => setExpanded(!expanded)}>
+        <NavLink
+          to="/"
+          onClick={() => setExpanded(!expanded)}
+          className={expanded ? styles.expanded : null}
+        >
           ⭐ Favorites{" "}
           <img
             src={chevron}
