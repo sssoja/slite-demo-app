@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import styles from "./style.module.css"; // Import css modules stylesheet as styles
-import star from "./i-star.svg";
+import starOnClick from "./i-star.svg";
+import star from "./i-star-outline.svg";
 
 class Topbar extends Component {
   render() {
